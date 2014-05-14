@@ -6,20 +6,5 @@ class Page extends Frontend_Controller{
 	}
 
 	public function index(){
-		$pages = $this->page_m->get(1);
-		var_dump($pages);
 	}
-
-	public function save(){
-		$data = array(
-			'title' => 'My Fuckin Page',
-			'slug' => 'my-fuckin-page',
-		);
-		$id = $this->page_m->save($data, 3);
-		var_dump($id);
-	}
-	public function delete(){
-		$this->page_m->delete(3);
-	}
-
 }
