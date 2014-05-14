@@ -21,4 +21,5 @@ class News_model extends CI_Model{
 
 		return $this->db->update($this->table, $data, $where);
 	}
+
 }
