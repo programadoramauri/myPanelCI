@@ -33,7 +33,7 @@
 				<div class="col-lg-3">
 					<section>
 						<?php echo mailto('programador.amauri@gmail.com', '<i class="glyphicon glyphicon-user">programador.amauri@gmail.com</i>'); ?><br />
-						<?php echo anchor('users/logout', '<i class="glyphicon glyphicon-off"></i>Logout'); ?>
+						<?php echo anchor('admin/user/logout', '<i class="glyphicon glyphicon-off"></i>Logout'); ?>
 					</section>
 				</div>
 			</div>
